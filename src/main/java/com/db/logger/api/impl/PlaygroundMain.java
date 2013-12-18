@@ -8,7 +8,7 @@ import java.util.concurrent.*;
 import com.db.logger.api.impl.logger.*;
 import com.db.logger.api.impl.logger.buffer.ICircularLongsBuffer;
 import com.db.logger.api.impl.logger.buffer.UnsafeCircularLongsBuffer;
-import com.db.logger.io.storage.RawWriter;
+import com.db.logger.api.impl.io.RawWriter;
 import com.db.logger.timesource.impl.JDKCombinedTimestampSource;
 import com.db.logger.timesource.impl.SynchronousJDKOffsetCalculator;
 import org.apache.commons.logging.Log;

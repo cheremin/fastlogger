@@ -10,7 +10,7 @@ import com.db.logger.api.LogMessage;
 import com.db.logger.api.impl.logger.buffer.ICircularLongsBuffer;
 import com.db.logger.api.impl.logger.formatters.RawLogMessage;
 import com.db.logger.api.impl.logger.formatters.SimpleLogMessage;
-import com.db.logger.io.storage.RawWriter;
+import com.db.logger.api.impl.io.RawWriter;
 import com.google.common.base.Throwables;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

@@ -3,12 +3,12 @@ package com.db.logger.benchmarks;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import com.db.logger.io.storage.RawWriter;
+import com.db.logger.api.impl.io.RawWriter;
 
 /**
-* @author ruslan
-*         created 04.12.13 at 23:23
-*/
+ * @author ruslan
+ *         created 04.12.13 at 23:23
+ */
 public class FakeRawWriter implements RawWriter {
 	private final ByteBuffer buffer = ByteBuffer.allocateDirect( 1 << 14 );
 
